@@ -11,7 +11,10 @@
     "url": "git+https://github.com/YOUR-GITHUB-USERNAME/my-semantic-project.git"
   },
   "license": "MIT",
-  "author": "yourname@example.com",
+  "author": {
+    "name": "yourname",
+    "url": "https://github.com/yourname"
+  },
   "type": "commonjs",
   "main": "index.js",
   "devDependencies": {
