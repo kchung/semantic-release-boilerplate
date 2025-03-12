@@ -1,5 +1,9 @@
 name: Lint title
-on: pull_request
+on:
+  pull_request:
+    types: [opened, reopened, edited]
+permissions:
+  pull-requests: read
 jobs:
   lint:
     name: Lint title
