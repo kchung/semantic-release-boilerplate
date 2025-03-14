@@ -2,6 +2,9 @@
   "name": "my-semantic-project",
   "version": "0.0.0-semantic-release",
   "description": "My semantic project",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/YOUR-GITHUB-USERNAME/my-semantic-project#readme",
   "bugs": {
     "url": "https://github.com/YOUR-GITHUB-USERNAME/my-semantic-project/issues"
@@ -15,8 +18,10 @@
     "name": "yourname",
     "url": "https://github.com/yourname"
   },
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "default": "./index.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
