@@ -37,7 +37,7 @@ You must create [a Personal Access Token (PAT)](https://docs.github.com/en/authe
 
 #### NPM
 
-You must create a [NPM token](https://docs.npmjs.com/about-access-tokens#about-granular-access-tokens) with "Read and Write" access to at minimum your package.
+You must create a [NPM token](https://docs.npmjs.com/about-access-tokens#about-granular-access-tokens) with "Read and Write" access to your package.
 
 ## Branches
 
