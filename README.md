@@ -26,7 +26,7 @@ Add the following [secrets to your repository](https://docs.github.com/en/action
 - `GH_TOKEN`
 - `NPM_TOKEN`
 
-#### Github
+#### Github Token
 
 You must create [a Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) with the following permissions:
 
@@ -35,7 +35,7 @@ You must create [a Personal Access Token (PAT)](https://docs.github.com/en/authe
 - `pull-requests`: to be able to comment on released pull requests
 - `id-token`: to enable use of OIDC for npm provenance
 
-#### NPM
+#### NPM Token
 
 You must create a [NPM token](https://docs.npmjs.com/about-access-tokens#about-granular-access-tokens) with "Read and Write" access to your package.
 
