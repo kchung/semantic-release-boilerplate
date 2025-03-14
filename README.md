@@ -2,6 +2,8 @@
 
 This is a simple template for a semantic release project.
 
+Merges to a target branch will create a semantic release based off the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) in the changes.
+
 ## Features
 
 - Semantic release
@@ -15,7 +17,7 @@ Click the "**Use this template**" button in Github to start your project.
 
 When you use this template via Github, the [`workflows/create.yml`](.github/workflows/create.yml) workflow will do some setup work for you like renaming the repository and removing some files that are not needed in your project.
 
-## Setup
+## Configuration
 
 ### Secrets
 
