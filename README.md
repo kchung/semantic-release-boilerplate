@@ -1,6 +1,6 @@
 # Semantic Release Template
 
-This is a basic template for a semantic release project.
+This is a simple template for a semantic release project.
 
 ## Features
 
@@ -49,6 +49,8 @@ The following branches are supported ([see configuration](https://semantic-relea
 - `*.x`
 
 You **need** to enable [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) for these branches in order to prevent unauthorized merges and releases.
+
+This template requires that pull request titles and commits follow the conventional commits spec and is enforced by the Github actions. If you're using a "Squash and merge" workflow, your title will dictate the type of release that will be made.
 
 ## Release
 
