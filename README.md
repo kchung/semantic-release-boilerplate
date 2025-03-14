@@ -50,8 +50,8 @@ The following branches are supported ([see configuration](https://semantic-relea
 
 You **need** to enable [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) for these branches in order to prevent unauthorized merges and releases.
 
-This template requires that pull request titles and commits follow the conventional commits spec and is enforced by the Github actions. If you're using a "Squash and merge" workflow, your title will dictate the type of release that will be made.
-
 ## Release
+
+This template requires that pull request titles and commits follow the conventional commits spec and is enforced by the Github actions. If you're using a "Squash and merge" workflow, your title will dictate the type of release that will be made.
 
 Any merges to the target branches will trigger a release. See [semantic-releases' workflow](https://semantic-release.gitbook.io/semantic-release/recipes/release-workflow) for more details.
