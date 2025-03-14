@@ -1,5 +1,6 @@
 name: "Create"
 # The workflow will run when the "Use this template" button is used
+# Forked from https://github.com/PaulRBerg/foundry-template/blob/c74318/.github/workflows/use-template.yml
 on:
   push:
 jobs:

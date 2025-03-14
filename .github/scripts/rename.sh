@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Forked from https://github.com/PaulRBerg/foundry-template/blob/c74318/.github/scripts/rename.sh
+
 # https://gist.github.com/vncsna/64825d5609c146e80de8b1fd623011ca
 set -euo pipefail
 
